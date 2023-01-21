@@ -1,0 +1,230 @@
+body{
+    background: #C39FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:  #6F3CFF;
+}
+.calculator{
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -1px 6px 55px rgba(0, 0, 0, 0.16);
+    border-radius: 21px;
+
+}
+.leftCalc{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.045em;
+
+    color: #9C60FF;
+
+    /* temp styles  */
+    /* background-color: aqua; */
+}
+.billText{
+    margin-top: 15%;
+    margin-bottom: 1%;
+}
+.inputAmount{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+    background: rgba(182, 172, 196, 0.53);
+    border-radius: 3px;
+}
+.selectTipText{
+    margin-bottom: 3%; 
+}
+
+img{
+    height: 75%;
+    margin-left: 5px;
+}
+.billAmount{
+    background-color: #B6ACC3;
+    border: none;
+    width: 10%;
+}
+.tipSelectors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100px;
+    /* padding: 10px; */
+    
+
+    margin-bottom: 12%; 
+    font-family: 'Monospaceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+
+    color: #E9DBFF;
+    /* temp style  */
+    /* background-color: red; */
+}
+.tip{
+    height: 40%;
+    width: 30%;
+    background-color: #9C60FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+.selectedTip{
+   
+    background: #C39FFF;
+}
+.inputNumOfPeople{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-right: 0;
+    margin-top: 5%;
+    background: rgba(182, 172, 196, 0.53);
+    border-radius: 3px;
+}
+.userCounter{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-right: 5px; */
+    
+    background: #FFFFFF;
+    border: 1px solid #8E8E8E;
+    border-radius: 3px;
+    /* temp  */
+    /* background-color: #C39FFF; */
+}
+.rightCalc{
+    height: 80%;
+    width: 40%;
+    background: #9C60FF;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+
+}
+.add, .subtract{
+    font-family: 'Monospaceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+.tipAmount, .totalAmount, .buttons{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+/* identical to box height */
+
+    letter-spacing: 0.045em;
+
+    color: #F3E4FF;
+    /* temp  */
+    /* background-color: #B6ACC3; */
+}
+.tipAmount{
+    margin-top: 40px;
+}
+.totalAmount{
+    margin-bottom: 90px;
+}
+h4{
+    margin-bottom: 0;
+}
+h5{
+    margin-top:0;
+}
+
+
+.buttons{
+    /* display: flex;
+    flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100%;
+    height: 30%; */
+}
+
+.calculate, .reset{
+    width: 40%;
+    height: 40%;
+    background: #C39FFF;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.tipAmountValue, .totalAmountValue{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #C39FFF;
+}
+
+.billAmount{
+    height: 90%;
+    width: 50px;
+    background: none;
+    outline: none;
+    text-align: center;
+    font-family: 'Monospaceland';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+
+    color: #9C60FF;
+}
+
